@@ -1,0 +1,106 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8; /* Cor de fundo mais clara */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    text-align: center;
+    color: #555; /* Cor de texto mais suave */
+}
+
+img {
+    border-radius: 10px;
+}
+
+nav {
+    background-color: #f4e1e6; /* Cor de fundo mais suave e feminina */
+    color: #333;
+    text-align: center;
+    padding: 20px 0; /* Padding ajustado */
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px; /* Espaçamento ajustado */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #a64d79; /* Cor mais moderna e feminina */
+    font-weight: bold;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #444;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px; /* Margem ajustada */
+}
+
+.container {
+    text-align: center;
+}
+
+.image {
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #eee; /* Cor de fundo mais clara */
+    padding: 20px;
+    text-align: center;
+    margin-top: auto;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 10px; /* Bordas mais arredondadas */
+    background-color: #fff; /* Fundo branco para contraste */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px; /* Espaçamento ajustado */
+    color: #666; /* Cor de texto mais suave */
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px; /* Espaçamento ajustado */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Para garantir que o padding não afete a largura total */
+}
+
+button {
+    background-color: #e57399; /* Cor mais feminina */
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transição suave */
+}
+
+button:hover {
+    background-color: #d46085; /* Cor de fundo ao passar o mouse */
+}
